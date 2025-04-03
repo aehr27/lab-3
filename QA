@@ -1,0 +1,18 @@
+Questions:
+1. Describe in your own words how Moran’s I is calculated
+
+  Moran's I is calculated by comparing how simialr one objects values are with the values of its neighbor object.
+
+2. Describe in your own words: what is a spatially-lagged variable?
+
+  A spatially lagged variable is a variable that's weighted based on its neighbors values. 
+
+3. How does your analysis in this lab (as simple as it is) differ by how you have formalized W (e.g., space,
+neighbors) in two different methods? How might it affect analysis?
+
+  The queen based W treated all of the counties as equal neighbors while the IDW method weighted the closest counties more. The IDW method would show a stronger correlation with closer counties.
+  
+4. What does it mean if an observation falls in the “H-L” quadrant? Why might it be useful to detect
+such occurances?
+
+  If an observation falls in the H-L quadrant it is most likely an outlier since it does not have a strong correlation with its neighbors. It can be useful to detect these observations in order to clean the data or find target areas. 
